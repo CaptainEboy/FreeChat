@@ -1,31 +1,9 @@
-// import { StatusBar } from 'expo-status-bar';
-// import { StyleSheet, Text, View } from 'react-native';
-
-// export default function App() {
-//   return (
-//     <View style={styles.container}>
-//       <Text>Open up App.js to start working on your app!</Text>
-//       <StatusBar style="auto" />
-//     </View>
-//   );
-// }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
-
-
 import { useEffect, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import io from "socket.io-client";
 
 // Replace this URL with your own socket-io host, or start the backend locally
-const socketEndpoint = "http://localhost:3000";
+const socketEndpoint = " https://da94-197-210-84-219.eu.ngrok.io ";
 
 // const socketEndpoint = fetch("http://localhost:3000").then(req => req.text()).then(console.log)
 
